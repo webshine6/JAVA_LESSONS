@@ -1,0 +1,17 @@
+package task2;
+
+public class Student {
+
+	private String name;
+	private String subject; // специалност
+	double grade; // успех
+	byte yearInCollеge; // курс
+	byte age; // години на студента
+	boolean isDegree; // дали е завършил или не
+	double money; // пари от стипендии
+
+	public Student() {
+
+	}
+
+}

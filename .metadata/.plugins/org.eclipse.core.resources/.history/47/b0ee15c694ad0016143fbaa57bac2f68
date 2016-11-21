@@ -1,0 +1,12 @@
+package zoo;
+
+public class Dog extends Animal {
+
+	void makeNoise() {
+		System.out.println("Shumul-shumul");
+	}
+
+	void chaiseStick() {
+		System.out.println("I'm getting it!!!");
+	}
+}

@@ -1,0 +1,11 @@
+package exceptionchaining;
+
+public class SubClass extends SuperClass {
+
+	@Override
+	void foo(String s) throws ArrayIndexOutOfBoundsException {
+		// TODO Auto-generated method stub
+		super.foo(s);
+	}
+
+}

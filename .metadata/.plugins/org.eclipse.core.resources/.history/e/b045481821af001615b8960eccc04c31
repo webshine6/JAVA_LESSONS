@@ -1,0 +1,10 @@
+package exceptionchaining;
+
+public class Smoker {
+
+	private boolean smoker = true;
+
+	public boolean asleap() {
+		return true;
+	}
+}

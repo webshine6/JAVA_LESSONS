@@ -1,0 +1,16 @@
+package task1;
+
+public class Student extends Person {
+
+	private double score;
+
+	private static final int MIN_SCORE = 2;
+	private static final int MAX_SCORE = 2;
+
+	void setScore(double score) {
+		if (score > MIN_SCORE && score < MAX_SCORE ) {
+			
+		}
+	}
+
+}

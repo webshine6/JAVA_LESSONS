@@ -1,0 +1,15 @@
+package lecture;
+
+public class DemoA {
+
+	public static void main(String[] args) {
+		A s1 = new A(2, 3);
+		A s2 = new A(7, 9);
+		// A s3 = new A(5, 8);
+
+		System.out.println(s2.x);
+		// System.out.println(s2.x);
+
+	}
+
+}

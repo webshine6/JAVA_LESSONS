@@ -1,0 +1,32 @@
+package exceptions;
+
+public class ArrayExeptions {
+
+	private static void printArrayInfo(int[] array) {
+
+		// prints array length
+		System.out.println("array length is : " + array.length);
+
+		// prints the third element
+		System.out.println("the third element of array length is : " + array[2]);
+
+		// prints some text
+		String s = "Lalalal";
+		System.out.println(s);
+
+	}
+
+	public static void main(String[] args) {
+
+		int[] array = { 0, 1, 16, 14 };
+
+		try {
+			printArrayInfo(array);
+		} catch (NullPointerException e) {
+			System.out.println("Something is null");
+		} catch (ArrayIndexOutOfBoundsException e) {
+			System.out.println("Array index out of bounds.");
+		}
+	}
+
+}

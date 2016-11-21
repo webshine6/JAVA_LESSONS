@@ -1,0 +1,20 @@
+package task2;
+
+public class GsmDemo {
+
+	public static void main(String[] args) {
+		// caller gsm number
+		GSM gsm1 = new GSM();
+		gsm1.insertSimCard("0876209209");
+
+		// receiver gsm number
+		GSM gsm2 = new GSM();
+		gsm2.insertSimCard("0892563352");
+
+		System.out.println(gsm1.simMobileNumber);
+
+		gsm1.call(gsm2, 15);
+
+	}
+
+}

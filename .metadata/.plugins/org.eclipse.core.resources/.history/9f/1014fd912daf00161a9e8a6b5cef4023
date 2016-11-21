@@ -1,0 +1,11 @@
+package exceptionchaining;
+
+public class Demo {
+
+	public static void main(String[] args) throws PojarException {
+
+		House kushta = new House();
+		kushta.throwParty();
+	}
+
+}

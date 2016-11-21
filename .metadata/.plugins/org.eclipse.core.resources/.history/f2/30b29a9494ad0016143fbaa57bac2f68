@@ -1,0 +1,13 @@
+package zoo;
+
+public class Cat {
+
+
+	void makeNoise() {
+		System.out.println("Shumul-shumul");
+	}
+
+	void purr() {
+		System.out.println("Purr-purr-purr");
+	}
+}

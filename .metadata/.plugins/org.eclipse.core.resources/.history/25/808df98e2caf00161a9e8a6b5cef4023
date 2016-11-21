@@ -1,0 +1,13 @@
+package exceptionchaining;
+
+import exceptionchaining.Person;
+
+public class House {
+
+	Person p;
+
+	public void throwParty() {
+		p.smoke();
+	}
+
+}

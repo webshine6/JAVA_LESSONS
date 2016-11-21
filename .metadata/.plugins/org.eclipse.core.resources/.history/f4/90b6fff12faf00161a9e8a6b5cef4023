@@ -1,0 +1,9 @@
+package exceptionchaining;
+
+public class PojarException extends Exception {
+
+	public PojarException(Throwable cause) {
+		super(cause);
+	}
+
+}

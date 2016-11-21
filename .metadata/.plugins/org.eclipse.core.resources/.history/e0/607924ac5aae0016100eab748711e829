@@ -1,0 +1,11 @@
+package abstraction;
+
+public interface Vehicle {
+
+	public void turn(String direction);
+
+	public void stop();
+
+	public void accelarate();
+
+}

@@ -1,0 +1,14 @@
+package lecture;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		Person pesho = new Person("8705126325");
+		Person pesho2 = new Person("550915252");
+
+		Item item1 = new Item("молив");
+		System.out.println(item1.getItemId());
+
+	}
+
+}

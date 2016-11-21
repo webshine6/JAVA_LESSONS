@@ -1,0 +1,13 @@
+package zoo;
+
+public class ZooDemo {
+
+	public static void main(String[] args) {
+		
+		Cat pisi = new Cat();
+		pisi.name = "Gosho";
+		pisi.makeNoise();
+
+	}
+
+}

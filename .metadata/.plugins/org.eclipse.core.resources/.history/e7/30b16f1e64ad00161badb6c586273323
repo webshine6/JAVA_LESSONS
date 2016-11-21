@@ -1,0 +1,12 @@
+package naselo;
+
+public class NaMegdana {
+
+	public static void main(String[] args) {
+		Peasant stavri = new Peasant("Stavri Gegata");
+
+		Sheep[] stado = new Sheep[10];
+
+	}
+
+}

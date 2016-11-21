@@ -1,0 +1,40 @@
+package task2;
+
+import java.util.Arrays;
+
+public class StudentDemo {
+
+	public static void main(String[] args) {
+		Student pesho = new Student("Pesho", "IT", 21);
+		pesho.grade = 4.25;
+
+		Student lili = new Student("Lili", "IT", 20);
+		lili.grade = 5.99;
+
+		Student zdravko = new Student("Zdravko", "IT", 30);
+		zdravko.grade = 5.89;
+
+		// Student petq = new Student("Petq", "IT", 28);
+		// petq.grade = 6.00;
+
+		Student vesko = new Student("Vesko", "IT", 18);
+
+		Student vqra = new Student("Vqra", "IT", 19);
+
+		StudentGroup sGroup = new StudentGroup("IT");
+
+		System.out.println("Array before adding student.");
+		System.out.println(Arrays.toString(sGroup.students));
+
+		System.out.println("Array after adding student.");
+		sGroup.addStudent(pesho);
+		sGroup.addStudent(lili);
+		sGroup.addStudent(zdravko);
+		// sGroup.addStudent(petq);
+
+		sGroup.theBestStudent();
+		// System.out.println(Arrays.toString(sGroup.students));
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package task2;
+
+public class GsmDemo {
+
+	public static void main(String[] args) {
+		GSM gsm1 = new GSM();
+		gsm1.insertSimCard("0876208439");
+
+		System.out.println(gsm1.simMobileNumber);
+
+		gsm1.call("0876208439", 15.0);
+
+	}
+
+}

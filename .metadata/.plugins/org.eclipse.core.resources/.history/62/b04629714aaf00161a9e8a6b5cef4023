@@ -1,0 +1,28 @@
+package exceptionchaining;
+
+public class SuperClass {
+
+	public static void main(String[] args) {
+		// за реализацията на chained exception е осигурена от конструкторите
+		// на Throwable
+		// Throwable(Throwable cause) {
+		//
+		// }
+		//
+		//
+		// Throwable(String msg, Throwable cause) {
+		//
+		// }
+
+		// и методите getCause() / initCause(Throwable cause)
+
+		try {
+			NullPointerException e = new NullPointerException();
+			e.initCause(new NullPointerException("this is caused of exeption"));
+		} catch (Exception e) {
+			System.out.println(e.getCause());
+		}
+
+	}
+
+}

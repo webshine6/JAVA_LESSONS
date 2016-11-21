@@ -1,0 +1,14 @@
+package exceptions;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		Person pesho = new Person();
+		Person katia = new Person("kateto");
+
+		System.out.println("Start-----------");
+		pesho.hasTheSameName(katia); // NullPointerException
+
+	}
+
+}

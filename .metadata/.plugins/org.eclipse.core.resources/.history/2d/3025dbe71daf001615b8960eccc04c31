@@ -1,0 +1,22 @@
+package myexceptions;
+
+public class LonelyPerson {
+
+	private String name;
+	LonelyPerson gf;
+
+	public void goOutWithGF(){
+		try {
+			if (gf == null) {
+				throw new GirlFriendNotFoundException();
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+	}
+
+	public void goSpeedDating() {
+		System.out.println("I hope hope, hope, hope ...");
+	}
+
+}

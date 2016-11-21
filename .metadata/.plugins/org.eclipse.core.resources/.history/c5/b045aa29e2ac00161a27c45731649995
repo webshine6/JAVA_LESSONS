@@ -1,0 +1,31 @@
+package task2;
+
+public class Student {
+
+	private String name;
+	private String subject; // специалност
+	double grade; // успех
+	byte yearInCollеge; // курс
+	byte age; // години на студента
+	boolean isDegree; // дали е завършил или не
+	double money; // пари от стипендии
+
+	public Student() {
+		this.grade = 4.0;
+		this.yearInCollеge = 1;
+		this.isDegree = false;
+		this.money = 0;
+	}
+
+	public Student(String name, String subject, byte age) {
+		this();
+		this.name = name;
+		this.subject = subject;
+		this.age = age;
+	}
+
+	void upYear() {
+
+	}
+
+}

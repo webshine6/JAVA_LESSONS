@@ -1,0 +1,29 @@
+
+public class Demo {
+
+	public static void main(String[] args) {
+		
+//		Mouse mishka0 = new Mouse("Pesho");
+//		Mouse mishka1 = new Mouse("Lili");
+//		Mouse mishka2 = new Mouse("Speedy", "Dark Brown");
+//		Mouse mishka3 = new Mouse("Mickey", "Black");
+		
+		Car bmw = new Car("X5", true, "Black");
+		bmw.setPrice(1000);
+		System.out.println(bmw.model);
+		Car audi = new Car("A3", true, "Black");
+		audi.setPrice(-2000);
+		audi.changeColor("Red");
+		System.out.println(audi.color);
+		audi.changeColor("Yellow");
+		System.out.println(audi.color);
+		
+		System.out.println(bmw.isMoreExpensive(audi));
+		System.out.println(audi.isMoreExpensive(audi));
+		
+		Person pesho = new Person("Kiro", 10);
+		Person lili = new Person();
+		
+		
+	}
+}

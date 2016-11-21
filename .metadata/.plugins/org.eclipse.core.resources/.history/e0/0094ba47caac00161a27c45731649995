@@ -1,0 +1,18 @@
+package animals;
+
+public class Lion {
+
+	double weight;
+	String name;
+	String female;
+	private int age;
+
+	public Lion() {
+	}
+
+	public Lion(String name, int age) {
+		this.name = name;
+		this.age = age;
+	}
+
+}

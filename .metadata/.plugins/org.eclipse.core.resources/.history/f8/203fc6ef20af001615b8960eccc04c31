@@ -1,0 +1,6 @@
+package exceptionchaining;
+
+public class Smoker {
+
+	private boolean smoker= true;
+}

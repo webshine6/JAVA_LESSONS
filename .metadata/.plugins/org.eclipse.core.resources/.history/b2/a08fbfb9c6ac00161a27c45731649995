@@ -1,0 +1,12 @@
+package animals;
+
+public class AnimalsDemo {
+
+	public static void main(String[] args) {
+
+		Lion luv = new Lion("Lian", 3);
+		luv.growUp();
+
+	}
+
+}

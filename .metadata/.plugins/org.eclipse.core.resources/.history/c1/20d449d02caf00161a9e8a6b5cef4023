@@ -1,0 +1,11 @@
+package exceptionchaining;
+
+public class House {
+
+	Person p;
+
+	public void throwParty() {
+		p.smoke();
+	}
+
+}

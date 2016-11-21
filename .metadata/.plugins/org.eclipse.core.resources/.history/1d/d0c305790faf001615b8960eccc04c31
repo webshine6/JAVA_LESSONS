@@ -1,0 +1,19 @@
+package exceptions;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		try {
+			Person pesho = new Person();
+			Person katia = new Person("kateto");
+
+			pesho.hasTheSameName(katia); // NullPointerException
+		} catch (NullPointerException e) {
+			System.out.println("Someone has no name." + e.getClass().getName());
+		}
+
+		System.out.println("End---------");
+
+	}
+
+}

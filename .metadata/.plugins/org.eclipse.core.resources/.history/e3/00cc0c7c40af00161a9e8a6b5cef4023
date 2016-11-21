@@ -1,0 +1,39 @@
+package exceptionchaining;
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import javax.xml.bind.JAXBException;
+
+public class TestException {
+
+	public static void main(String[] args) {
+
+		try {
+			bar();
+		} catch (NullPointerException e) {
+			// TODO: handle exception
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+
+		foo();
+	}
+
+	public static void testException() throws FileNotFoundException, IOException {
+
+	}
+
+	public static void go() throws IOException, JAXBException, FileNotFoundException {
+
+	}
+
+	public static void bar() {
+
+	}
+
+	public static void foo() throws NullPointerException {
+
+	}
+
+}

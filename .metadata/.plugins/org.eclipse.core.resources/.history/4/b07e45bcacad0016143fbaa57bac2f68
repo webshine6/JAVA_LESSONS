@@ -1,0 +1,21 @@
+package task1;
+
+public class Employee extends Person {
+
+	private double daySalary;
+
+	public Employee(String name, int age, boolean isFemale, double daySalary) {
+		super(name, age, isFemale);
+		this.daySalary = daySalary;
+	}
+
+	double calculateOvertime(double hours) {
+		if (getAge() > 18) {
+		return (this.daySalary / 8) * hours;
+		}		
+		else {
+			return 0;
+		}
+	}
+	
+}

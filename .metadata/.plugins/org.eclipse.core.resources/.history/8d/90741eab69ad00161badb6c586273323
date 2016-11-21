@@ -1,0 +1,10 @@
+package naselo;
+
+public class Sheep {
+
+	static Peasant ovchar;
+
+	String name;
+	int age;
+	boolean hasZvunche;
+}

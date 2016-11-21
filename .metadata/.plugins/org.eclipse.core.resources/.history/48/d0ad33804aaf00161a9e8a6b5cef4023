@@ -1,0 +1,11 @@
+package exceptionchaining;
+
+public class SubClass extends SuperClass {
+
+	@Override
+	void foo(String s) throws IllegalArgumentException {
+		// TODO Auto-generated method stub
+		super.foo(s);
+	}
+
+}

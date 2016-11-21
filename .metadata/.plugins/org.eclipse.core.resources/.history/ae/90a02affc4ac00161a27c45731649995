@@ -1,0 +1,14 @@
+package animals;
+
+public class Lion {
+
+	double weight;
+	String name;
+	String female;
+	private int age;
+
+	void growUp() {
+		this.age++;
+	}
+
+}

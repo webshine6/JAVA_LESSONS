@@ -1,0 +1,15 @@
+package exceptionchaining;
+
+public class PojarException extends Exception {
+
+	public PojarException() {
+	
+	}
+	public PojarException(String message) {
+		
+	}
+	public PojarException(Throwable cause) {
+		super(cause);
+	}
+
+}

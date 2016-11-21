@@ -1,0 +1,36 @@
+package advancedTask;
+
+import lection.Car;
+
+public class CarShop {
+
+	Car[] cars;
+
+	int freeSpaces;
+
+	public CarShop(int capacity) {
+		if (capacity > 0) {
+			cars = new Car[capacity];
+			this.freeSpaces = capacity;
+		}
+	}
+
+	boolean addCar(Car car) {
+		if (freeSpaces > 0) {
+			cars[cars.length - freeSpaces] = car;
+			freeSpaces--;
+			return true;
+		}
+		return false;
+	}
+
+	Car getNextCar() {
+		Car car = null;
+
+		for (int i = 0; i < freeSpaces; i++) {
+			car = (Car) cars[i];
+		}
+		return car;
+	}
+
+}

@@ -1,0 +1,17 @@
+package lecture;
+
+import java.util.Random;
+
+public class Demo {
+
+	public static void main(String[] args) {
+	
+		Random r = new Random();
+		
+		int number = r.nextInt(6);
+		System.out.println(number);
+		
+		
+	}
+
+}

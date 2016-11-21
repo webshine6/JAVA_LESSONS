@@ -1,0 +1,11 @@
+package varargs;
+
+public class Worker {
+
+	void work(String... tasks) {
+
+	}
+
+
+
+}

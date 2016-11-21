@@ -1,0 +1,15 @@
+package myexceptions;
+
+public class LonelyPerson {
+
+	private String name;
+
+	public void goOutWithGF() {
+		System.out.println();
+	}
+
+	public void goSpeedDating() {
+		System.out.println("I hope hope, hope, hope ...");
+	}
+
+}

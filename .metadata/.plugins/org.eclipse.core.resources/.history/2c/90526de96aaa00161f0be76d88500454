@@ -1,0 +1,10 @@
+package task2;
+
+public class Call {
+
+	static double priceForMinute = 0.34; // цена на разговор за минута
+	String caller; // телефона, от който е направено повикването
+	String receiver; // телефона, към който е направено повикването
+	int duration; // дължината на разговора (в минути)
+ 
+}

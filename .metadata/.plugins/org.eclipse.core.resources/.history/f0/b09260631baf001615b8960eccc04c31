@@ -1,0 +1,16 @@
+package myexceptions;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		try {
+			Object x = new String("Pesho");
+
+			int y = (int) x;
+
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+	}
+
+}

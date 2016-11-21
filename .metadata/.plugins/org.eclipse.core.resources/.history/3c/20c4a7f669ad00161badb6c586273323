@@ -1,0 +1,18 @@
+package naselo;
+
+public class Sheep {
+
+	static Peasant ovchar;
+
+	String name;
+	int age;
+	boolean hasZvunche;
+
+	void makeSound() {
+		System.out.println("BeeeEeeEe");
+
+		if (hasZvunche) {
+			System.out.println("Dzun-dzun");
+		}
+	}
+}

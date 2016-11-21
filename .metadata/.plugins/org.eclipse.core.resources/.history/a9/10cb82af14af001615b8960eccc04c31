@@ -1,0 +1,36 @@
+package exceptions;
+
+public class ArrayExeptions {
+
+	static void printArrayInfo(int[] array) {
+
+		try {
+			// prints array length
+			System.out.println("array length is : " + array.length);
+
+			// prints the third element
+			System.out.println("the third element of array length is : " + array[2]);
+
+			// prints some text
+			String s = null;
+
+			System.out.println(s);
+
+		} catch (NullPointerException e) {
+			System.out.println("Wrong operations with array.");
+		} catch (IndexOutOfBoundsException e) {
+			System.out.println("No such element in array.");
+		} catch (IllegalArgumentException e) {
+			System.out.println("Cannot take in an empty String or null value for ");
+		}
+
+	}
+
+	public static void main(String[] args) {
+
+		int[] array = { 0, 1, 16, 14 };
+
+		printArrayInfo(array);
+	}
+
+}

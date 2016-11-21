@@ -1,0 +1,29 @@
+package task1;
+
+public class Employee extends Person {
+
+	private double daySalary;
+
+	public Employee(String name, int age, boolean isFemale, double daySalary) {
+		super(name, age, isFemale);
+		this.daySalary = daySalary;
+	}
+
+	double calculateOvertime(double hours) {
+		if (getAge() > 18) {
+			return (getDaySalary() / 8) * hours * 1.5;
+		} else {
+			return 0;
+		}
+	}
+
+	double getDaySalary() {
+		return daySalary;
+	}
+
+void showEmployeeInfo() {
+		showPersonInfo();
+		System.out.println("Заплата : " + getDaySalary());
+	}
+
+}

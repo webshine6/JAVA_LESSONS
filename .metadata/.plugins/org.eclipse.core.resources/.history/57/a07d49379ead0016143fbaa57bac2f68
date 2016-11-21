@@ -1,0 +1,12 @@
+package zoo;
+
+public class Animal {
+	String name;
+	int age;
+	double weight;
+
+	void makeNoise() {
+		System.out.println("Shumul-shumul");
+	}
+
+}

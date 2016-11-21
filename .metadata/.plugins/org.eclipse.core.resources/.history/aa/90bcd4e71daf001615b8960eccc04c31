@@ -1,0 +1,18 @@
+package myexceptions;
+
+public class LonelyPerson {
+
+	private String name;
+	LonelyPerson gf;
+
+	public void goOutWithGF() throws GirlFriendNotFoundException {
+		if (gf == null) {
+			throw new GirlFriendNotFoundException();
+		}
+	}
+
+	public void goSpeedDating() {
+		System.out.println("I hope hope, hope, hope ...");
+	}
+
+}

@@ -1,0 +1,21 @@
+package zoo;
+
+public class Animal {
+	String name;
+	int age;
+	double weight;
+
+	protected Animal(String name) {
+		this.name = name;
+	}
+
+	Animal(String name, int age) {
+		this.name = name;
+		this.age = age;
+	}
+
+	void makeNoise() {
+		System.out.println("Shumul-shumul");
+	}
+
+}

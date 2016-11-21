@@ -1,0 +1,8 @@
+package naselo;
+
+public class Sheep {
+
+	String name;
+	int age;
+	
+}

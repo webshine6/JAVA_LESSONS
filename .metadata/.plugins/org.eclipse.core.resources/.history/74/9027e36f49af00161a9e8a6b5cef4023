@@ -1,0 +1,13 @@
+package exceptionchaining;
+
+import java.net.SocketException;
+
+public class SubClass extends SuperClass {
+
+	@Override
+	void foo(String s) throws SocketException {
+		// TODO Auto-generated method stub
+		super.foo(s);
+	}
+
+}

@@ -1,0 +1,21 @@
+package varargs;
+
+public class Worker {
+
+	void work() {
+
+	}
+
+	void work(String task) {
+
+	}
+
+	void work(String task1, String task2) {
+
+	}
+
+	void work(String[] task1s) {
+
+	}
+
+}

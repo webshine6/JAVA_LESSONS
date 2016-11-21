@@ -1,0 +1,11 @@
+package lecture;
+
+public class Person {
+
+	final String egn = "8702020101";
+	
+	public Person(String egn) {
+		this.egn = egn;
+	}
+	
+}

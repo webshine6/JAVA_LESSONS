@@ -1,0 +1,10 @@
+package myexceptions;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		Object x = new String("Pesho");
+
+	}
+
+}

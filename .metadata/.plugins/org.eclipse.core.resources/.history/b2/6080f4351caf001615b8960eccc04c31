@@ -1,0 +1,23 @@
+package myexceptions;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		try {
+			// Object x = new String("Pesho");
+			// int y = (int) x;
+			// throw new ClassCastException();
+
+			String s = "";
+			s.length();
+
+			throw new NullPointerException();
+
+		} catch (ClassCastException e) {
+			System.out.println("Idiot! " + e.getMessage());
+		} catch (NullPointerException e) {
+			System.out.println("Idiot! " + e.printStackTrace());
+		}
+	}
+
+}

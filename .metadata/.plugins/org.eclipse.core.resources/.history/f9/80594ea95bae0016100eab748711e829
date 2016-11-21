@@ -1,0 +1,29 @@
+package abstraction;
+
+public class Car implements Vehicle {
+
+	private int currentSpeed;
+
+	@Override
+	public void turn(String direction) {
+		System.out.println("Turning " + direction);
+
+	}
+
+	@Override
+	public void stop() {
+		System.out.println("Use breaks.");
+
+	}
+
+	@Override
+	public void accelarate() {
+		System.out.println("Speed is up.");
+		currentSpeed++;
+	}
+	
+	private void turnLeft() {
+		System.out.println("Turning to the left.");
+	}
+
+}

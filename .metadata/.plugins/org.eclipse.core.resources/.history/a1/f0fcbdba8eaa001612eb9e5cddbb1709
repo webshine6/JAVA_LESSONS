@@ -1,0 +1,33 @@
+package lection;
+
+public class Person {
+
+	String name;
+	int age;
+	String sex;
+	double weight;
+	Person[] friends;
+	int health;
+	int hunger;
+	int mentality;
+	double money;
+	Car myCar;
+
+	void eat() {
+		hunger--;
+	}
+
+	void heal() {
+		health++;
+	}
+
+	void buyCar(Car car) {
+		if (this.money >= car.getPrice()) {
+			// vzimam q!
+			this.money -= car.getPrice();
+			this.myCar = car;
+			car.changeOwner(this);
+		}
+	}
+
+}

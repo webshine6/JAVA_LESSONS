@@ -1,0 +1,16 @@
+package myexceptions;
+
+public class Demo {
+
+	public static void main(String[] args) {
+
+		LonelyPerson guy = new LonelyPerson();
+		try {
+			guy.goOutWithGF();
+		} catch (GirlFriendNotFoundException e) {
+			guy.gf = new LonelyPerson();
+		}
+
+	}
+
+}

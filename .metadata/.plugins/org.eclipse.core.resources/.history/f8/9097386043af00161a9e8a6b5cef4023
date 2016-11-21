@@ -1,0 +1,54 @@
+package exceptionchaining;
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import javax.xml.bind.JAXBException;
+
+public class TestException {
+
+	public static void main(String[] args) {
+
+		try {
+			foo(); // винаги можеш да хванеш Exception или NullPointerException
+			// дори когато не е в throws клаузата на метода
+			// дори в throws клаузата на метода да е позочен
+			// NullPointerException,
+			// не е необходимо да се обработи в програмата
+		} catch (IOException | JAXBException e) {
+			e.printStackTrace();
+		} catch (Exception e) {
+
+			e.printStackTrace();
+		}
+
+	}
+
+	public static void testException() throws FileNotFoundException, IOException { // деклариране
+																					// на
+																					// тип
+																					// изключения
+		throw new FileNotFoundException("File not found exception."); // изрично
+																		// хвърляне
+																		// на
+		// само едно
+		// изключение
+		// (създава
+		// инстанция
+		// на
+		// изключение)
+	}
+
+	public static void go() throws IOException, JAXBException, FileNotFoundException {
+
+	}
+
+	public static void bar() {
+
+	}
+
+	public static void foo() throws IOException, JAXBException {
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package task1;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		Person[] persons = new Person[10];
+
+		Person person1 = new Person("Georgi", 25, false);
+		Person person2 = new Person("Krasimira", 34, true);
+
+		Student student1 = new Student("Ivan", 16, false);
+		Student student2 = new Student("Hristo", 26, false);
+
+		Employee employee1 = new Employee("Svetlio", 30, false, 420);
+		Employee employee1 = new Employee("Zdravka", 38, true, 340);
+
+	}
+
+}

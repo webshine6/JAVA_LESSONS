@@ -1,0 +1,11 @@
+package exceptionchaining;
+
+import java.io.FileNotFoundException;
+
+public class SuperClass {
+
+	void foo(String s) throws FileNotFoundException {
+		System.out.println(s);
+	}
+
+}

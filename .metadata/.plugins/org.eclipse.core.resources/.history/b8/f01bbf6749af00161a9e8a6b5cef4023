@@ -1,0 +1,9 @@
+package exceptionchaining;
+
+public class SuperClass {
+
+	void foo(String s) throws IndexOutOfBoundsException {
+		System.out.println(s);
+	}
+
+}

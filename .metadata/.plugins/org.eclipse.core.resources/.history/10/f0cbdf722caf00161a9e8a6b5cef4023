@@ -1,0 +1,16 @@
+package exceptionchaining;
+
+import exceptions.Person;
+
+public class House {
+
+	Person p;
+
+	public void throwParty() {
+		p
+	}
+	
+	
+
+
+}

@@ -1,0 +1,17 @@
+package zoo;
+
+public class ZooDemo {
+
+	public static void main(String[] args) {
+
+		Cat pisi = new Cat();
+		Cat sisi = new Cat();
+		
+		Integer xInteger = 25;
+		Integer yInteger = 60;
+
+		System.out.println(xInteger.equals(yInteger));
+		
+	}
+
+}

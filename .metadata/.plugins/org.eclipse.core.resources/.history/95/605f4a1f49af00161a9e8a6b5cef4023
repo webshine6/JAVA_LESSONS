@@ -1,0 +1,13 @@
+package exceptionchaining;
+
+import java.io.FileNotFoundException;
+
+public class SubClass extends SuperClass {
+
+	@Override
+	void foo(String s) throws FileNotFoundException {
+		// TODO Auto-generated method stub
+		super.foo(s);
+	}
+
+}

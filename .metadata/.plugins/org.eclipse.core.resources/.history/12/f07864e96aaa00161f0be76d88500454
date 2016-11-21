@@ -1,0 +1,9 @@
+package task2;
+
+public class Call {
+
+	static double priceForMinute = 0.34;
+	String caller;
+	String receiver;
+
+}

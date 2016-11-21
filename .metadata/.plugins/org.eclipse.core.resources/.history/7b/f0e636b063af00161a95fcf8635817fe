@@ -1,0 +1,9 @@
+package oopprincipes;
+
+public class Polymorphism {
+
+	int add(int a) {
+		return a;
+	}
+	
+}

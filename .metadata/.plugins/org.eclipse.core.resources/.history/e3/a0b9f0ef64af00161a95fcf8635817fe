@@ -1,0 +1,12 @@
+package oopprincipes;
+
+public class BookDetails {
+
+	String title;
+
+	private void setBook(String title) {
+		this.title = title;
+
+	}
+
+}

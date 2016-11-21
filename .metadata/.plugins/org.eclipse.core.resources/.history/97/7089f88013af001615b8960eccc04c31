@@ -1,0 +1,28 @@
+package exceptions;
+
+public class ArrayExeptions {
+
+	static void printArrayInfo(int[] array) {
+
+		try {
+			// prints array length
+			System.out.println("array length is : " + array.length);
+
+		} catch (NullPointerException e) {
+			System.out.println("Wrong operations with array.");
+		}
+
+		// prints the third element
+
+		// prints some text
+
+	}
+
+	public static void main(String[] args) {
+
+		int[] array = null;
+
+		printArrayInfo(array);
+	}
+
+}

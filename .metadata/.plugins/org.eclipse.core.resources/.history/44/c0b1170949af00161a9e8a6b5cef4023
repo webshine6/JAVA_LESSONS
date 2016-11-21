@@ -1,0 +1,10 @@
+package exceptionchaining;
+
+public class SuperClass {
+
+	void foo(String s) throws NullPointerException {
+		System.out.println(s);
+	}
+	
+	
+}
